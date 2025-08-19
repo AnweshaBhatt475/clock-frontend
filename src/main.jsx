@@ -14,6 +14,6 @@ ReactDOM.createRoot(document.getElementById("root")).render(
       redirect_uri: import.meta.env.VITE_AUTH0_REDIRECT_URI
     }}
   >
-    <App apiUrl={'https://clock-backend-tuac.onrender.com'} demo={false} />
+    <App apiUrl={'https://clock-backend-recent.onrender.com'} demo={false} />
   </Auth0Provider>
 );
